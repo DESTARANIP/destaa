@@ -1,0 +1,18 @@
+.r {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+.registrasi {
+    background-color: rgb(149, 221, 255);
+    border: 2px solid rgb(168, 162, 162);
+    display: inline-flexbox;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
+    padding: 10px;
+    margin-left: 550px; 
+    margin-right: 550px;
+}
+.button {
+    cursor: pointer;
+}

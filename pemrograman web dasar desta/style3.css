@@ -1,0 +1,19 @@
+.L{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.login {
+    background-color: rgb(149, 221, 255);
+    border: 2px solid rgb(168, 162, 162);
+    display: inline-flexbox;
+    text-align: center;
+    padding: 10px;
+    margin-left: 550px; 
+    margin-right: 550px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button {
+    cursor: pointer;
+}
+
