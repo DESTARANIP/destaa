@@ -1,0 +1,86 @@
+.navbar {
+    background: rgb(147, 232, 255);
+    border-radius: 3px;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    padding-left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.menu li a {
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li:hover>a {
+    background-color: rgb(62, 178, 224);
+}
+.dropdown,.dropdown-submenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(211, 246, 255);
+    border: 1px solid rgb(197, 213, 218);
+    min-width: 200px;
+    z-index: 10;
+}
+.menu li:hover>.dropdown {
+    display: block;
+}
+.dropdown li a {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: left;
+}
+.dropdown li:hover > a {
+    background-color: rgb(62, 178, 224);
+}
+.dropdown > li:hover > .dropdown-submenu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+.bukupsikologi {
+    margin: 20px;
+    padding: 50px;
+    background-color: rgb(147, 232, 255);
+    border-radius: 10px;
+}
+.buku {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+.bukuku {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(197, 213, 218);
+    border-radius: 0px;
+    background-color: rgb(211, 246, 255);
+    text-align: center;
+    width: 200px;
+}
+.bukuku:hover {
+   background-color: rgb(91, 202, 253);
+}
+.gambar {
+    width: 190px;
+    height: 230px;
+}
