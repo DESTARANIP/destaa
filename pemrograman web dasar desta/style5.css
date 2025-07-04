@@ -1,13 +1,15 @@
-
 .navbar {
-    background: rgb(138, 223, 245);
+    background: rgb(147, 232, 255);
+    border-radius: 3px;
     margin: 0;
     padding: 30px;
+    text-shadow: 5px;
 }
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .menu {
     margin: 0;
@@ -58,8 +60,8 @@
     left: 100%;
 }
 .buku-best-seller, .majalah-best-seller {
-    margin: 50px;
-    padding: 50px;
+    margin: 40px;
+    padding: 40px;
     background-color: rgb(147, 232, 255);
     border-radius: 10px;
 }
@@ -68,10 +70,20 @@
     justify-content: space-around;
 }
 .bukuku, .majalahku {
-    padding: 50px;
     border: 1px solid rgb(197, 213, 218);
     border-radius: 5px;
     background-color: rgb(211, 246, 255);
-    text-align: center;
-    width: 100px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.bukuku:hover {
+   background-color: rgb(91, 202, 253);
+}
+.majalahku:hover {
+    background-color: rgb(91, 202, 253);
+}
+.gambar {
+    width: 150px;
+    height: 200px;
 }
