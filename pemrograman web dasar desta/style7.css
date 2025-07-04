@@ -1,0 +1,103 @@
+.navbar {
+    background: rgb(147, 232, 255);
+    border-radius: 3px;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    padding-left: 0;
+    margin-right: 10px;
+    position: relative;
+}
+.menu li a {
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li:hover>a {
+    background-color: rgb(62, 178, 224);
+}
+.dropdown,.dropdown-submenu {
+  list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(211, 246, 255);
+    border: 1px solid rgb(197, 213, 218);
+    min-width: 200px;
+    z-index: 10;
+}
+.menu li:hover>.dropdown {
+    display: block;
+}
+.dropdown li a {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: left;
+}
+.dropdown li:hover > a {
+    background-color: rgb(62, 178, 224);
+}
+.dropdown > li:hover > .dropdown-submenu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+.buku {
+    background-color: rgb(147, 232, 255);
+    display: flex;
+    border-radius: 5px;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.gambar {
+    width: 250px;
+    height: 350px;
+    background-color: rgb(147, 232, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+.rincian {
+    background-color: rgb(147, 232, 255);
+    border-radius: 5px;
+    width: 400px;
+}
+.sub {
+    list-style-type: none;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px;
+    border-radius: 5px;
+}
+.beli {
+    display: flex;
+    align-items: left;
+    list-style-type: none;
+    margin-top: 15px;
+}
+.beli-button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(147, 232, 255);
+}
+.beli-button:hover {
+    background-color: rgb(91, 202, 253);
+}
