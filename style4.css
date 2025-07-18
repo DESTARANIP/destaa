@@ -1,0 +1,47 @@
+
+.navbar {
+    background: rgb(149, 221, 255);
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    padding-left: 0;
+    margin-right: 10px;
+}
+.menu li a {
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+}
+.buku-best-seller, .majalah-best-seller {
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(147, 232, 255);
+    border-radius: 10px;
+}
+.buku, .majalah{
+    display: flex;
+    justify-content: space-around;
+}
+.bukuku, .majalahku {
+    padding: 50px;
+    border: 1px solid rgb(197, 213, 218);
+    border-radius: 5px;
+    background-color: rgb(211, 246, 255);
+    text-align: center;
+    width: 100px;
+}
+
+    

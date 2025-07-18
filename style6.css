@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(147, 232, 255);
+    background: rgb(0, 183, 255);
     border-radius: 3px;
     margin: 0;
     padding: 30px;
@@ -27,7 +27,7 @@
     display: inline-block;
 }
 .menu li:hover>a {
-    background-color: rgb(62, 178, 224);
+    background-color: rgb(214, 224, 224);
 }
 .dropdown,.dropdown-submenu {
     list-style-type: none;
@@ -50,18 +50,18 @@
     text-align: left;
 }
 .dropdown li:hover > a {
-    background-color: rgb(62, 178, 224);
+    background-color: rgb(177, 182, 182);
 }
 .dropdown > li:hover > .dropdown-submenu {
     display: block;
     top: 0;
     left: 100%;
 }
-.bukupsikologi {
+.bukupsikologi,.bukukomputer, .bukuagama {
     margin: 20px;
     padding: 50px;
-    background-color: rgb(147, 232, 255);
-    border-radius: 10px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 20px;
 }
 .buku {
     display: grid;
@@ -72,15 +72,26 @@
     padding: 20px;
     margin-bottom: 10px;
     border: 1px solid rgb(197, 213, 218);
-    border-radius: 0px;
+    border-radius: 20px;
     background-color: rgb(211, 246, 255);
     text-align: center;
     width: 200px;
 }
 .bukuku:hover {
-   background-color: rgb(91, 202, 253);
+   background-color: rgb(190, 194, 194);
 }
 .gambar {
     width: 190px;
     height: 230px;
+}
+.produk {
+    display: flex;
+    gap: 15px;
+}
+.footer {
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
 }

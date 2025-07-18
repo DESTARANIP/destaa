@@ -1,5 +1,5 @@
 .navbar {
-    background: rgb(147, 232, 255);
+    background: rgb(0, 183, 255);
     border-radius: 3px;
     margin: 0;
     padding: 30px;
@@ -27,10 +27,10 @@
     display: inline-block;
 }
 .menu li:hover>a {
-    background-color: rgb(62, 178, 224);
+    background-color: rgb(214, 224, 224);
 }
 .dropdown,.dropdown-submenu {
-  list-style-type: none;
+    list-style-type: none;
     display: none;
     padding: 0;
     margin: 0;
@@ -50,7 +50,7 @@
     text-align: left;
 }
 .dropdown li:hover > a {
-    background-color: rgb(62, 178, 224);
+    background-color: rgb(177, 182, 182);
 }
 .dropdown > li:hover > .dropdown-submenu {
     display: block;
@@ -58,7 +58,7 @@
     left: 100%;
 }
 .buku {
-    background-color: rgb(147, 232, 255);
+    background-color: rgb(211, 246, 255);
     display: flex;
     border-radius: 5px;
     justify-content: left;
@@ -68,12 +68,12 @@
 .gambar {
     width: 250px;
     height: 350px;
-    background-color: rgb(147, 232, 255);
+    background-color: rgb(211, 246, 255);
     padding: 5px;
     border-radius: 5px;
 }
 .rincian {
-    background-color: rgb(147, 232, 255);
+    background-color:rgb(211, 246, 255);
     border-radius: 5px;
     width: 400px;
 }
@@ -96,8 +96,16 @@
     padding: 5px 15px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(147, 232, 255);
+    background-color: rgb(93, 206, 250);
 }
 .beli-button:hover {
-    background-color: rgb(91, 202, 253);
+    background-color: rgb(190, 194, 194);
+}
+.footer {
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    margin-top: 10px;
 }
